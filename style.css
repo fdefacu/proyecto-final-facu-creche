@@ -1,0 +1,135 @@
+* { margin: 0;
+padding: 0;}
+/* Inicio header */
+
+
+.logo {
+    height: 100px;
+    width: 100 px;
+    display: flex;
+    justify-content: center;
+
+}
+.zona-nav {
+    border: 2px solid #951139
+    ;
+    background-color: #07baf5;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+    #links {
+        color: red;
+        display: inline;
+        font-family: 'Montserrat', sans-serif; 
+        text-decoration: none;}
+
+    /* Fin header */
+
+    p { font-family: 'Montserrat', sans-serif; }
+    h1, h2 {font-family: 'Montserrat', sans-serif;
+            background-color: #B5B2B2;
+            display: flex;
+            justify-content: center;
+        }
+
+
+    /* primer seccion */
+
+.destacada {
+    display: flex;
+    justify-content: space-around;
+}
+.primero-noticia-1 {
+    height: 400px;
+    width: 700px;
+    border: 2px solid red;
+    margin: 5px
+}
+.primero-noticia-2 {
+    height: 400px;
+    width: 700px;
+    border: 2px solid red;
+    margin: 5px
+
+}
+
+
+/* Fin Primera Seccion */
+
+/* publicidad */
+
+.banner-publicitario {
+    display: flex;
+    justify-content: center;
+}
+.publicidad { 
+    height: 80px;
+    width: 600px;
+    margin: 30px;
+}
+/* fin publicidad */
+
+/* Segunda seccion */
+
+.segunda-section {
+    display: flex;
+    justify-content: center;
+}
+
+.container-segundo2 { 
+    display: flex;
+    flex-direction: column;
+}
+
+.segundo-noticia1 {
+        margin: 0px 10px 10px 10px;
+        height: 300px;
+        width: 500px;
+}
+
+.segundo-noticia2, .segundo-noticia3  {
+    height: 150px;
+    width: 300px; }
+
+/* Fin segunda seccion */
+
+/* Inicio Tercera seccion */
+.tercera-section {
+    display: flex;
+    justify-content: center;
+}
+
+/* Fin tercera seccio */
+
+/* boton de whatsapp */
+.boton-mensajes {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+/* Fotter */
+
+.pie-pagina {
+    background-color: gray;
+}
+.redes-container {
+    display: flex;
+    justify-content: start;
+}
+#redes{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    text-decoration: none;
+   
+}
+
+.mapa-container {
+ display: flex;
+ justify-content: center;
+}
