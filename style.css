@@ -116,6 +116,7 @@ padding: 0;}
 
 .pie-pagina {
     background-color: gray;
+    
 }
 .redes-container {
     display: flex;
@@ -132,4 +133,11 @@ padding: 0;}
 .mapa-container {
  display: flex;
  justify-content: center;
+}
+
+/* fin fotter */
+
+.carousel-recetas {
+    width: 500px;
+    margin: 10px 500px;
 }
